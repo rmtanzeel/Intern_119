@@ -14,7 +14,7 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "Hide & Field — Leather Goods & Sports Equipment" },
-      { name: "description", content: "Handcrafted leather wallets, belts, bags & match-ready sports gear built to last." },
+      { name: "description", content: "Hide & Field offers handcrafted leather goods and durable sports equipment — wallets, bags, jerseys, and gear built for everyday performance." },
     ],
   }),
   component: HomePage,
