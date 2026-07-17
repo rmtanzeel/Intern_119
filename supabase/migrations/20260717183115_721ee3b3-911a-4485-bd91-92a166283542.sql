@@ -1,0 +1,1 @@
+UPDATE public.products SET images = ARRAY['/__l5e/assets-v1/afd52aa2-67ce-4062-9677-f03d52ce56fb/training-cone-set.jpg'] WHERE slug='training-cone-set';
