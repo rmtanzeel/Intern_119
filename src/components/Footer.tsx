@@ -35,7 +35,7 @@ export function Footer() {
 
           <div className="rounded-xl border border-primary-foreground/25 bg-primary-foreground/5 p-5">
             <p className="text-xs uppercase tracking-widest text-primary-foreground/60">Created by</p>
-            <p className="mt-1 font-serif text-lg font-semibold">Muhammad Tanzeel ur Rehman</p>
+            <p className="mt-1 font-serif text-lg font-semibold">Muhammad Tanzeel</p>
             <div className="mt-4 flex items-center gap-4">
               <a
                 href="mailto:rmtanzeel@gmail.com"
