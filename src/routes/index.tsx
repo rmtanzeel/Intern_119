@@ -35,11 +35,19 @@ function HomePage() {
 function Hero() {
   return (
     <section className="relative overflow-hidden">
-      <div
-        className="absolute inset-0 -z-10 bg-cover bg-center"
-        style={{ backgroundImage: "url(https://images.unsplash.com/photo-1520975954732-35dd22299614?w=1920&q=80)" }}
-      />
-      <div className="absolute inset-0 -z-10 bg-gradient-to-r from-primary/90 via-primary/70 to-primary/30" />
+      <picture className="absolute inset-0 -z-10">
+        <source
+          media="(min-width: 768px)"
+          srcSet="https://images.unsplash.com/photo-1520975954732-35dd22299614?w=1920&q=80"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1520975954732-35dd22299614?w=800&q=80"
+          alt=""
+          className="h-full w-full object-cover object-center"
+          loading="eager"
+        />
+      </picture>
+      <div className="absolute inset-0 -z-10 bg-gradient-to-b from-primary/80 via-primary/70 to-primary/40 md:bg-gradient-to-r md:from-primary/90 md:via-primary/70 md:to-primary/30" />
       <div className="mx-auto flex min-h-[560px] max-w-[1280px] flex-col justify-center px-4 py-24 md:px-8">
         <p className="text-sm uppercase tracking-[0.25em] text-primary-foreground/80">Craftsmanship · Performance</p>
         <h1 className="mt-4 max-w-3xl font-serif text-5xl font-bold leading-tight text-primary-foreground md:text-7xl">
