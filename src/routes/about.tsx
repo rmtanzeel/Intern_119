@@ -64,7 +64,7 @@ function AboutPage() {
             <h2 className="font-serif text-3xl font-bold">Get in touch</h2>
             <p className="mt-2 text-muted-foreground">We usually reply within one business day.</p>
             <div className="mt-6 space-y-3 text-sm">
-              <p className="flex items-center gap-3"><Mail className="h-4 w-4 text-accent" /> hello@hideandfield.co</p>
+              <p className="flex items-center gap-3"><Mail className="h-4 w-4 text-accent" /> rmtanzeel@gmail.com</p>
               <p className="flex items-center gap-3"><Phone className="h-4 w-4 text-accent" /> +1 (555) 010-2233</p>
               <p className="flex items-center gap-3"><MapPin className="h-4 w-4 text-accent" /> 210 Craftsman Lane, Portland OR</p>
             </div>
