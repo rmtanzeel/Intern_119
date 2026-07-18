@@ -65,8 +65,8 @@ function AboutPage() {
             <p className="mt-2 text-muted-foreground">We usually reply within one business day.</p>
             <div className="mt-6 space-y-3 text-sm">
               <p className="flex items-center gap-3"><Mail className="h-4 w-4 text-accent" /> rmtanzeel@gmail.com</p>
-              <p className="flex items-center gap-3"><Phone className="h-4 w-4 text-accent" /> +1 (555) 010-2233</p>
-              <p className="flex items-center gap-3"><MapPin className="h-4 w-4 text-accent" /> 210 Craftsman Lane, Portland OR</p>
+              <p className="flex items-center gap-3"><Phone className="h-4 w-4 text-accent" /> +92 314 6495849</p>
+              <p className="flex items-center gap-3"><MapPin className="h-4 w-4 text-accent" /> Lahore, Pakistan</p>
             </div>
 
             <h3 className="mt-10 font-serif text-2xl font-bold">FAQ</h3>
