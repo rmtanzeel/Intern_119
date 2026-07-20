@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Mail, Linkedin, Github, Instagram, Facebook } from "lucide-react";
+import { Mail, Linkedin, Github } from "lucide-react";
 
 export function Footer() {
   return (
@@ -8,11 +8,12 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-10 md:grid-cols-4">
           <div>
             <h3 className="font-serif text-2xl font-bold">Hide &amp; Field</h3>
-            <p className="mt-3 text-sm text-primary-foreground/75">Rugged leather craftsmanship meets sport-ready performance.</p>
-            <div className="mt-4 flex gap-3">
-              <a href="#" aria-label="Instagram" className="rounded-full border border-primary-foreground/20 p-2 transition hover:border-accent hover:text-accent"><Instagram className="h-4 w-4" /></a>
-              <a href="#" aria-label="Facebook" className="rounded-full border border-primary-foreground/20 p-2 transition hover:border-accent hover:text-accent"><Facebook className="h-4 w-4" /></a>
-            </div>
+            <p className="mt-3 text-sm leading-relaxed text-primary-foreground/80">
+              Where rugged leather craftsmanship meets sport-ready performance. Every piece is built for the field, the trail, and everything in between — designed to endure, refined to inspire.
+            </p>
+            <p className="mt-3 text-xs uppercase tracking-widest text-accent/90">
+              Crafted · Tested · Trusted
+            </p>
           </div>
           <div>
             <h4 className="font-serif text-lg font-semibold">Shop</h4>
